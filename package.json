@@ -33,7 +33,9 @@
     "build:prod": "env-cmd -f .env.prod react-scripts build",
     "build:test": "env-cmd -f .env.test react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "eslintConfig": {
     "extends": [
